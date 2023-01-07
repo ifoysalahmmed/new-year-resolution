@@ -15,7 +15,7 @@
     border: 0;
 }
 
-/* header styles */
+/* header section styles */
 
 .header {
     margin: 0 auto;
@@ -23,25 +23,221 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 808px;
-    width: 1600px;
     color: #FFFFFF;
 }
 
 .banner-title {
     font-size: 65px;
     font-weight: 700;
-    padding: 216px 230px 0 845px;
+    padding: 216px 150px 0 600px;
     text-align: right;
 }
 
 .banner-description {
     font-size: 16px;
     text-align: right;
-    padding-left: 876px;
-    padding-right: 230px;
+    margin-left: 760px;
+    padding-right: 150px;
     margin-top: 24px;
 }
-#header-button{
-    margin-left: 1210px;
+
+#header-button {
+    margin-left: 1040px;
     margin-top: 32px;
+}
+
+/* main section styles */
+/* my failure section styles */
+
+.failure-container {
+    display: flex;
+    align-items: center;
+    margin-top: 131px;
+}
+
+.failure-person {
+    margin-left: 170px;
+    margin-right: 50px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 120px;
+}
+
+.failure-section-description {
+    color: #444343;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-right: 120px;
+}
+
+.failure-container ul {
+    color: #444343;
+    font-size: 16px;
+    list-style: none;
+}
+
+.failure-container ul li:before {
+    content: '✓';
+    color: #16D887;
+    font-weight: 700;
+    margin-right: 14px;
+}
+
+.items .item {
+    margin-bottom: 8px;
+}
+
+/* my plan section styles */
+
+.plan {
+    margin-top: 130px;
+    margin-left: 20px;
+}
+
+.plan .section-title {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.target-container {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.target-info {
+    padding: 30px;
+}
+
+.target-info .section-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.target-icon {
+    display: flex;
+    width: 93px;
+    height: 93px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.target-container .section-title {
+    text-align: center;
+}
+
+.target-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* what i got section */
+
+.what-i-got-section {
+    margin: 50px 130px;
+    text-align: center;
+}
+
+.what-i-got-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.what-i-got-section p {
+    color: #444343;
+    font-size: 16px;
+}
+
+/* call now section */
+
+.call-now-section {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),
+        url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 130px 100px;
+    border-radius: 8px;
+}
+
+.call-now {
+    padding: 80px 65px;
+}
+
+.call-now h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* footer section styles */
+
+.contact {
+    background: #151414;
+    display: flex;
+    gap: 150px;
+    padding: 130px 130px;
+}
+
+.contact .section-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.contact .section-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.section-description-email {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.section-description-phone {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.contact a {
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.contact ::placeholder {
+    color: #F3F3F3;
+}
+
+.contact input[type="email"] {
+    font-size: 18px;
+    background-color: #151414;
+    margin-bottom: 16px;
+    padding: 22px;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.contact #subscribe {
+    color: #FFFFFF;
+    background: #005FAC;
 }
